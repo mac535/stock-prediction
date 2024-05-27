@@ -13,7 +13,7 @@ streamlit run stock_forecast_app.py
 This will launch the app in your web browser. You can then select the stock dataset and the number of years you want to forecast. The app will display the raw data, the forecast data, and the forecast plot.
 Note: The data loading process can take a while if you are running the app for the first time. This is because the data is being cached. In subsequent runs, the data will be loaded much faster.
 
-~How it works~
+#How it works
 
 1.The app allows the user to select a stock dataset from the available options.
 2.The user can also choose the number of years they want to forecast into the future.
@@ -23,6 +23,7 @@ Note: The data loading process can take a while if you are running the app for t
 6.A future dataframe is created with the specified number of periods for forecasting.
 7.The forecast is made using the Prophet model and the future dataframe.
 8.The forecast data is displayed along with the forecast plot.
-~Data source~
+
+#Data source
 
 The stock data used in this app is fetched from Yahoo Finance using the yfinance library.
